@@ -3,12 +3,13 @@
 using namespace std;
 
 int main() {
-    int a=0,num=0;
+    int a=0;
+    float num=0;
     cin>> a;
     if(a<=0){
         return 0;
     }
-    int numeri[a];
+    float numeri[a];
         for (int i = 0; i < a; i++) {
             num = 0;
             cin >> num;
