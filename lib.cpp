@@ -1,8 +1,8 @@
 #include <iostream>
 #include "lib.h"
 using namespace std;
-int maggiore(int numeri[],int dim){
-    int b=0;
+float maggiore(float numeri[],int dim){
+    float b=0;
     b=numeri[0];
     for(int j=0;j<dim;j++){
         if(b<numeri[j]){
