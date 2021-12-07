@@ -4,6 +4,7 @@ using namespace std;
 int maggiore(int numeri[],int dim){
     int b=0,num=0;
     for(int i=0;i<dim;i++){
+        num=0;
         cin>>num;
         numeri[i]=num;
     }
